@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body .backgroundImage {
+  position: absolute;
+  width: 100%;
+}
+/***************Card Management***************/
+.card {
+  margin: 15% 40%;
+  position: absolute;
+  background-color: #fff;
+}
+
+.card-body {
+  width: 90%;
+  margin: auto;
+}
+/******************Card Body******************/
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-weight: 900;
+  color: #212E54;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 11px;
+  color: #A0A4AE;
+}
+/******************Plan******************/
+.plan {
+  font-size: 12px;
+  background-color: #F9F8FE;
+  border-radius: 4%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.8rem 0;
+}
+
+.plan img,
+.plan a {
+  grid-column: span 1;
+}
+
+.plan img {
+  width: 32px;
+  height: 32px;
+  margin-left: 1rem;
+}
+
+.plan p {
+  grid-column: 2/4;
+  font-weight: 700;
+  margin: 0;
+  color: #212E54;
+}
+
+.plan a {
+  font-weight: 700;
+  color: #382AE1;
+}
+
+span {
+  color: #A0A4AE;
+  font-weight: normal;
+}
+/*******************Buttons*******************/
+button {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  background-color: #382AE1;
+}
+
+.cancel {
+  background: none;
+  border: none;
+  color: #717390;
+  font-size: 12px;
+  font-weight: 700;
+}
+/********************Hover********************/
+.btn:hover {
+  background-color: #766DF0;
+}
+
+.cancel:hover {
+  color: #191D38;
+}
+
+a:hover {
+  color: #A8A0F6;
+  text-decoration: none;
+}
